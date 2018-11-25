@@ -12,7 +12,7 @@ It's a very simple and fast setup.
 
 ## WordPress & Valet
 
-We are using a slightly modified [Bedrock](https://roots.io/bedrock/) setup for our WordPress projects, but you can also use the default one. The local setup is pretty easy and can be done in 3
+We are using a slightly modified [Bedrock](https://roots.io/bedrock/) setup for our WordPress projects, but you can also use the default one. The local setup is pretty easy and can be done as follows.
 
 ### 1. Install valet with composer
 
