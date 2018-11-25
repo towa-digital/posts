@@ -56,6 +56,12 @@ You can also share local sites to others with the `valet share` command. It enab
 
 ![Valet sharing][valet-sharing]
 
+## Further useful commands
+
++ `valet link`: add projects outside the parked folder
++ `valet secure`: secure a local site with ssl
++ `valet list`: list all commands
+
 ## Valet vs VMs
 
 You should be aware that Valet is not a replacement for a virtual machine. If you need more advanced and extended setup you probably have to use one. You could use for example [homestead](https://laravel.com/docs/5.7/homestead) - which we'll cover in a seperate blogpost.
