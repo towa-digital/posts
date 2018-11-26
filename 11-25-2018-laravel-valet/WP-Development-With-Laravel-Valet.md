@@ -64,7 +64,9 @@ After running the command inside the project folder following screen appears:
 
 ## Valet vs VMs
 
-You should be aware that Valet is not a replacement for a virtual machine. If you need more advanced and extended setup you probably have to use one. You could use for example [homestead](https://laravel.com/docs/5.7/homestead) - which we'll cover in a seperate blogpost.
+You should be aware that Valet is not a replacement for a virtual machine. If you need more advanced and extended setup you probably have to use one. Reasons for that would be for example if you need a flexible local environment without beeing tied to your local settings or if you wish to make a more production-like environment. Additionally some VMs provide other services and software you may need like Redis, Memcached, Node, Mailhog, Elasticsearch and so on.
+
+You could use for example [homestead](https://laravel.com/docs/5.7/homestead) - which we'll cover in a seperate blogpost.
 
 ## Conclusion
 
