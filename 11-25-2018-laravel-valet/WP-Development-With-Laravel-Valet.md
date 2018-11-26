@@ -52,7 +52,7 @@ You can also share local sites to others with the `valet share` command. It enab
 ▲ valet share
 ```
 
-After running the command inside the project folder following screen appears:
+After running the command inside the project folder, following screen appears:
 
 ![Valet sharing][valet-sharing]
 
