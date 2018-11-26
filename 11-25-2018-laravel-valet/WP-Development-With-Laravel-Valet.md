@@ -4,7 +4,7 @@ There are tons of options for setting up a local development environment for Wor
 
 ## Laravel Valet
 
-Laravel Valet was primarily designed for local [Laravel](https://laravel.com/) development - sound obvious right? :).
+Laravel Valet was primarily designed for local [Laravel](https://laravel.com/) development - sounds obvious right? :).
 
 Valet uses the built-in PHP server from Mac (yes Valet is limited to Mac-Users, but there are forks for [Linux](https://github.com/cpriego/valet-linux) and [Windows](https://github.com/cretueusebiu/valet-windows) - but we did not test those yet) and utilizes [DnsMasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) to proxy all requests to the `.test` TLD to sites on your local machine. Valet also requires PHP and a database server installed locally on your machine.
 
@@ -26,7 +26,7 @@ Run `valet install` for installing and configuring valet and dnsmasq. After the 
 
 #### Auto mapping projects
 
-Valet has a super comfortable function, which maps local sites automatically to the configured TLD domain. For enabling switch to the folder which should be mapped and run `valet park`.
+Valet has a super comfortable function, which maps local sites automatically to the configured TLD domain. For enabling it switch to the designated folder and run `valet park`.
 
 ```bash
 ▲ cd ~/projects/valet
@@ -52,7 +52,7 @@ You can also share local sites to others with the `valet share` command. It enab
 ▲ valet share
 ```
 
- After running the command inside the project folder following screen appears:
+After running the command inside the project folder following screen appears:
 
 ![Valet sharing][valet-sharing]
 
