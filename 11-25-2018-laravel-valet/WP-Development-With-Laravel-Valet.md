@@ -8,6 +8,8 @@ Laravel Valet was primarily designed for local [Laravel](https://laravel.com/) d
 
 Valet uses the built-in PHP server from Mac (yes Valet is limited to Mac-Users, but there are forks for [Linux](https://github.com/cpriego/valet-linux) and [Windows](https://github.com/cretueusebiu/valet-windows) - but we did not test those yet) and utilizes [DnsMasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) to proxy all requests to the `.test` TLD to sites on your local machine. Valet also requires PHP and a database server installed locally on your machine.
 
+Out of the box, Valet already supports numerous frameworks like Laravel, Lumen, Bedrock, Drupal, Symfony, WordPress and others. Additionally you can build custom drivers to support your own setup.
+
 It's a very simple and fast setup.
 
 ## WordPress & Valet
