@@ -80,6 +80,6 @@ Valet is a super simple and fast setup for a local development environment. It's
 + [Official Laravel Valet Website](https://laravel.com/docs/5.7/valet)
 + [WordPress Bedrock](https://roots.io/bedrock/)
 
-[valet]: https://github.com/towa-digital/posts/raw/master/11-25-2018-laravel-valet/valet.png "Valet options & commands"
-[valet-mapping]: https://github.com/towa-digital/posts/raw/master/11-25-2018-laravel-valet/valet-mapping.png "Valet mapping"
-[valet-sharing]: https://github.com/towa-digital/posts/raw/master/11-25-2018-laravel-valet/valet-sharing.png "Valet sharing"
+[valet]: valet.png "Valet options & commands"
+[valet-mapping]: valet-mapping.png "Valet mapping"
+[valet-sharing]: valet-sharing.png "Valet sharing"
