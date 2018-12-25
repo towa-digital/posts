@@ -1,0 +1,28 @@
+# Staging Pipeline
+- pipeline: "Boilerplate: Staging"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "develop"
+  ref_type: "BRANCH"
+  target_site_url: "your-staging-url"
+  actions:
+  - action: "run composer"
+    ...
+  - action: "Build theme"
+    ...
+  - action: "Push to staging"
+    ...
+
+# Production Pipeline
+- pipeline: "Boilerplate: Production"
+  trigger_mode: "ON_EVERY_PUSH"
+  ref_name: "refs/tags/v*"
+  ref_type: "WILDCARD"
+  target_site_url: "your-production-url"
+  actions:
+  - action: "run composer"
+    execute: - "composer install --no-ansi --no-dev --no-interaction --no-suggest --no-progress --no-scripts --optimize-autoloader"
+    ...
+  - action: "Build theme"
+    ...
+  - action: "Push to production"
+    ...
