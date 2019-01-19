@@ -33,10 +33,6 @@ We are planning to open-source our boilerplate for WordPress which includes all 
 
 ![Sneak Preview][sneak-preview-boilerplate-and-configs]
 
-The configuration has two default pipelines defined out of the box. First one is for the staging environment, last one for the production environment. The differences are in the specific configuration-keys like server-host or actions like the composer-command which is described with all the flags. Also when to trigger the pipelines differ. All up to you.
-
-We are evaluating and improving the piplines continously. Our goal is to have a 100% infrastructure-as-code approach, where we can spin up environments as needed fully automated. If we achieve this, topics like feature-based environments are just a matter of configuration.
-
 ## Conclusion
 
 It's not only about the beauty of your code. It's more than that. It actually helps to write better code and maintain it. It helps you and your team. That's why we are sticking to it and want to improve further.
