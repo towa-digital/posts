@@ -1,11 +1,11 @@
-# Our WordPress CMS Setup - Part I - The Introduction
+# Our WordPress CMS Setup - The introduction
 
 Boilerplates - probably the holy grail of frameworks to get started.
 They have their *raison d'être* and therefore we here at TOWA also do have one.
 
 ## Intro
 
-We would love to give you some insights, how we work in our WordPress CMS projects. Therefore we decided to publish a couple of blog-posts and guide you through our current CMS boilerplate. In that process, we also open source the boilerplate, which we are really excited about. In this post, we mainly going to speak about the main structure and different parts.
+We would love to give you some insights, how we work in our WordPress CMS projects. Therefore we decided to publish a couple of blog-posts and guide you through our current CMS boilerplate. In that process, we'll open source our boilerplate, which we are really excited about. In this post, we mainly going to speak about the main structure and important parts from our boilerplate.
 
 ## Need followed by action
 
@@ -39,7 +39,6 @@ Above you can see that we have some well-known tooling and frameworks in place. 
 
 The whole structure of the boilerplate is based on [bedrock](https://roots.io/bedrock) and has couple of neat features included. First of all, `composer`, which also has WordPress itself as a dependency included. What a relief!
 Another really neat feature is the whole seperation of configuration and application files which gives us some additional security for hosting the projects. Simply explained: WordPress is installed in a subfolder and all configuration files (credentials, app-settings, etc) are placed in the root of the project. The entry point for serving the application is `/web` and therefore the configuration part is isolated to a certain point.
-If you want to know more about bedrock, we would love to guide you to their website: [bedrock](https://roots.io/bedrock). Give them some cudos, they really do a great job!
 
 #### Our Theme
 
